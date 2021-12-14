@@ -1,0 +1,17 @@
+.coin-row {
+  width: auto;
+  height: auto;
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 2px;
+  margin: 1.5px;
+}
+.coin-row td {
+  border: 1px solid white;
+  width: 25vh;
+  height: auto;
+  text-align: center;
+}

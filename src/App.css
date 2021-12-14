@@ -1,9 +1,12 @@
 .App {
   text-align: center;
+  background-color: #00246b;
+  padding-bottom: 20px;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 12vmin;
+  min-height: 11vmin;
   pointer-events: none;
 }
 
@@ -15,12 +18,32 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
+}
+
+.table-headers {
+  margin-top: 25px;
+  position: relative;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-self: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+.table-headers td {
+  width: 25vh;
+}
+
+.App-title {
+  font-size: calc(20px + 2vmin);
   color: white;
 }
 
